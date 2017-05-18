@@ -3,7 +3,7 @@
 Directiva de AngularJS que personaliza la funcionalidad de lo conocido como radiobutton.
 Esta directiva ha sido creada para que sea 100% compatible con la mayoria de los navegadores (especialmente con IE y Chrome).
 
-NOTA: Esta en una face inicial y en un futuro esperamos dotarla de mucha más funcionalidad.
+NOTA: Esta en una fase inicial y en un futuro esperamos dotarla de mucha más funcionalidad.
 
 ### Como empezar
 
