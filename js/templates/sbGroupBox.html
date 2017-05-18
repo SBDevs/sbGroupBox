@@ -1,0 +1,10 @@
+<div class="sb-group-box">
+    <div class="row">
+        <div class="col-md-{{  OrientacionHorizontal ? BsColumnas : 12 }}" ng-repeat="elem in  ArrayGroupBoxExtend track by $index">
+            <div class="sb-item-group-box" ng-class="{'sb-item-group-box-seleccionado': elem.Seleccionado, 'sb-item-group-box-deshabilitado': elem.Deshabilitado}" ng-click="CambioSeleccion(elem)">
+                <span class="sb-icono-item fa" ng-class="{'{{FaSeleccionado}}':  elem.Seleccionado , '{{FaNoSeleccionado}}':  !elem.Seleccionado && !elem.Deshabilitado, '{{FaDeshabilitado}}':  elem.Deshabilitado}"></span>
+                {{elem.item[Etiqueta]}}
+            </div>          
+        </div>
+    </div>
+</div>
